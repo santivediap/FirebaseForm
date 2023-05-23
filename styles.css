@@ -1,4 +1,117 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    height: 100dvh;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color:#32213A;
+    min-width: 250px;
+}
+
+.box-container {
+    padding: 2%;
+    background-color: #66717E;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.form-element {
+    padding: 1%;
+    font-size: 2.5dvh;
+}
+
+#message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards {
+    background-color: #383B53;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.message {
+    width: 20dvh;
+    height: 10dvh;
+    resize: none;
+    border-radius: 20px 20px;
+}
+
+main {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    border-radius: 20px 20px;
+    width: 20dvh;
+}
+
+button, input[type="submit"] {
+    border-radius: 20px 20px;
+    width: 20dvh;
+    background-color: #383B53;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 1.5px 3px #000000;
+}
+
+h2, p {
+    color: #32213A;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#fff;
+}
+
+.contactcard {
+    background-color: #D4D6B9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    min-height: 50vh;
+    max-width: 40vh;
+    min-width: 40vh;
+    border-radius: 20px 20px;
+    margin: 1%;
+    box-shadow: 0px 1.5px 10px #000000;
+}
+
+.contactcard > img {
+    width: 50%;
+    box-shadow: 0px 0px 5px #00000081;
+}
+
+.cards-container {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

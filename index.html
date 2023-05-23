@@ -8,6 +8,48 @@
     <title>FirebaseForm</title>
 </head>
 <body>
+    <main>
+        <section class="box-container">
+            <form class="form-container">
+                <article class="form-element">
+                    <label for="name">Your name:</label>
+                    <input type="text" name="name">
+                </article>
+                
+                <article class="form-element">
+                <label for="email">Your email:</label>
+                <input type="email" name="email">
+                </article>
+
+                <article class="form-element">
+                    <label for="url">Your URL:</label>
+                    <input type="url" name="url">
+                    </article>
+
+                <article class="form-element" id="message">
+                <label for="message">Your message:</label>
+                <textarea name="message" class="message"></textarea>
+                </article>
+
+                <article class="form-element">
+                <input type="submit" value="Submit">
+                </article>
+
+                <article class="form-element">
+                    <button id="delete-contacts">Delete contacts</button>
+                </article>
+            </form>
+
+            <article class="cards-container"></article>
+        </section>
+    </main>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
